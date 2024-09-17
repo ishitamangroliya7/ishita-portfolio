@@ -685,3 +685,126 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: black;
   transform: scale(1.1);
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    align-items: end;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding-right: 10px;
+    margin-bottom: 6px;
+  }
+
+  span.navbar-text {
+    justify-content: end;
+  }
+
+  .navbar-text button {
+    padding: 7px 25px;
+  }
+
+  .contact form button {
+    padding: 7px 35px;
+  }
+
+  .banner {
+    padding: 250px 0 50px 0;
+  }
+
+  .banner h1 {
+    font-size: 50px;
+  }
+
+  .banner p,
+  .skill p,
+  .project p {
+    font-size: 16px;
+  }
+
+  .skill h2,
+  .certificates-bx h2,
+  .project h2,
+  .contact h2 {
+    font-size: 40px;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    padding: 12px 0;
+  }
+
+  .proj-txtx h4 {
+    font-size: 24px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 16px;
+  }
+
+  .navbar-text button {
+    font-size: 16px;
+  }
+
+  .banner .tagline {
+    font-size: 18px;
+  }
+
+  .contact form button {
+    padding: 7px 35px;
+  }
+
+  .banner {
+    padding: 250px 0 50px 0;
+  }
+
+  .banner h1 {
+    font-size: 35px;
+  }
+
+  .banner p,
+  .skill p,
+  .project p {
+    font-size: 16px;
+  }
+
+  .skill h2,
+  .certificates-bx h2,
+  .project h2,
+  .contact h2 {
+    font-size: 35px;
+  }
+
+  .proj-txtx h4 {
+    font-size: 28px;
+  }
+
+  .contact {
+    padding: 60px 0 75px 0;
+  }
+
+  button.react-multiple-carousel__arrow {
+    min-height: 30px;
+    min-width: 30px
+  }
+  button.react-multiple-carousel__arrow::before{
+    font-size: 12px
+  }
+
+  span.navbar-text {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
